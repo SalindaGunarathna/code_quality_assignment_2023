@@ -32,7 +32,7 @@ public class TravelCostCalculator {
         }
     }
 
-    // load flight from line
+    // load flight from line for code
     private static void loadFlight(String file) throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
